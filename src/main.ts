@@ -8,7 +8,7 @@ function onReady() {
     height: 600
   })
 
-  const fileName = `file://${__dirname}/index.html`
+  const fileName = `file://${__dirname}/gui.html`
   mainWindow.loadURL(fileName)
   mainWindow.on('close', () => app.quit())
 }
