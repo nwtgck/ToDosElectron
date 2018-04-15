@@ -60,3 +60,5 @@ typings/
 __tests__/
 dist/
 TEST-*.xml
+
+/release
